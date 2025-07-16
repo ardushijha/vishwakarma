@@ -340,24 +340,129 @@
     <button class="btn">Explore More</button>
   </section>
 
-<!-- About Us Section -->
-<section id="about" style="
-  background: url('./ChatGPT\ Image\ Jul\ 12\,\ 2025\,\ 04_05_21\ PM.png') no-repeat center center/cover;
-  padding: 80px 20px;
-  text-align: center;
-  color: #333;
+
+
+
+
+    <!-- ✅ About Us Section Start -->
+
+
+<section id="about" style="padding: 80px 20px; 
+  background: url('officebackground.png') no-repeat center center/cover;
+  background-attachment: fixed;
 ">
-  <div style="max-width: 1000px; margin: auto; padding: 40px 30px; border-radius: 12px;">
-    <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: #ff3c00;">About Us</h2>
-    <p style="font-size: 1.1rem; line-height: 1.8; text-align: justify;">
-      <b>It gives us an immense pleasure to introduce our company as one of the eminent companies providing high quality flex banner printing services. 
-      Quality of services is a prior consideration for our company, so these services are specially designed in accordance with our clients’ specifications. 
-      Our flex banner printing services are undertaken by using advanced technology machines. We believe in treating our customers with the highest degree of integrity. 
-      Flex printing can be used in hoarding printing, vinyl printing, board printing, canvas printing, glass lamination printing, wall wrap printing, banner printing, and backdrop printing. 
-      Digital printing is so flexible that you can customize it according to your clients’ needs.</b>
-    </p>
+
+
+
+
+  <style>
+    .about-container {
+      max-width: 1300px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 50px;
+    }
+
+
+
+
+    .about-images {
+      flex: 1 1 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      align-items: center;
+    }
+
+    .img-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .img-row img {
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border: 4px solid white;
+    }
+
+    .img-sm {
+      width: 280px;
+      height: 280px;
+    }
+
+    .img-lg {
+      width: 200px;
+      height: 200px;
+    }
+
+       .about-text {
+      background-color: white;
+      padding: 40px;
+      border-radius: 16px;
+      max-width: 600px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .about-text h2 {
+      color: #ff3c00;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .about-text {
+        padding: 25px;
+      }
+
+      .about-images img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  </style>
+
+  <div class="about-container">
+    <!-- Left Side Images -->
+    <div class="about-images">
+      <div class="img-row">
+        <img src="office4.png" alt="Office" class="img-sm">
+        <img src="office2.png" alt="Office" class="img-lg">
+      </div>
+      <div class="img-row">
+        <img src="office3.png" alt="Office" class="img-lg">
+        <img src="office1.png" alt="Office" class="img-sm">
+      </div>
+    </div>
+
+    <!-- Right Side Text -->
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        <b>It gives us an immense pleasure to introduce our company as one of the eminent companies providing high quality flex banner printing services. 
+        Quality of services is a prior consideration for our company, so these services are specially designed in accordance with our clients’ specifications. 
+        Our flex banner printing services are undertaken by using advanced technology machines. We believe in treating our customers with the highest degree of integrity. 
+        Flex printing can be used in hoarding printing, vinyl printing, board printing, canvas printing, glass lamination printing, wall wrap printing, banner printing, and backdrop printing. 
+        Digital printing is so flexible that you can customize it according to your clients’ needs.</b>
+      </p>
+    </div>
   </div>
 </section>
+<!-- ✅ About Us Section End -->
 
 
 <!-- Services Section -->
@@ -1128,6 +1233,7 @@ background: linear-gradient(to right, #fcf9ed, #fff3d4);
   <!-- Phone -->
   <p><i class="fas fa-phone" style="margin-right: 8px;"></i> +91 9915067013</p>
 </div>
+
 
 
   
